@@ -3,6 +3,7 @@ layout: post
 title: "Injection"
 author: "s0ksy"
 ---
+Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde veremos como podemos hacer explotaciones de SQL injection para obtener la contraseña y el usuario del ssh.
 
 ## Reconocimiento
 
