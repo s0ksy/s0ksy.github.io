@@ -1,4 +1,11 @@
-## RECON
+---
+layout: post
+title: "Injection"
+author: "s0ksy"
+---
+
+
+## Reconocimiento
 
 Lanzamos un escaneo con nmap básico para poder ver que puertos tenemos abiertos
 - -p- : Sirve para indicarle que quieres hacer un escaneo sobre todos los puertos (1-65535) de la ip 
