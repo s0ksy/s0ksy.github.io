@@ -8,5 +8,4 @@ permalink: /writeups/Dockerlabs/
 
 Aquí puedes ver los writeups de las máquinas que he realizado de Dockerlabs.
 
-- [Post 1](post1.md)
-- [Post 2](post2.md)
+- [Trust - Dockerlabs](post1.md)
