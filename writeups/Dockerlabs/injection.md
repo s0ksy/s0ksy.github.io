@@ -33,6 +33,7 @@ Y encontramos un login en el directorio de /index.php, podriamos intentar una in
 ## Explotación
 
 Lo dicho, hacemos la SQLi usando `'or 1 = 1-- -` como user y como password podemos poner cualquier contraseña:
+
 ![injection6](/assets/images/injection6.png)
 
 Perfecto!! Entramos y de primeras tenemos un usuario `Dylan` y una constraseña que podriamos usar para conectarnos por SSH:
