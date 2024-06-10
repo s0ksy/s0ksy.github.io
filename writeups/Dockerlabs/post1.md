@@ -38,6 +38,7 @@ Entramos por ssh y de primeras hacemos un ls para ver que archivos, directorios.
 ## Escalada de privilegios
 
 Vamos a intentar conseguir usuario de SUPERADMIN y hacemos un sudo -l para ver los comandos que podemos usar siendo usuario "mario" y vemos /usr/bin/vim, un bin interesante que lo podemos usar para escalar privilegios
+
 ![recon7](/assets/images/recontrust7.png)
 
 Nos vamos a la página de gtfobins https://gtfobins.github.io/gtfobins/vim/#suid y buscamos el bin: vim, para ver que comando podemos ejecutar para esa escalada de privilegios y encontramos lo siguiente:
