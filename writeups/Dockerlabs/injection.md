@@ -36,6 +36,7 @@ Lo dicho, hacemos la SQLi usando `'or 1 = 1-- -` como user y como password podem
 ![injection6](/assets/images/injection6.png)
 
 Perfecto!! Entramos y de primeras tenemos un usuario `Dylan` y una constraseña que podriamos usar para conectarnos por SSH:
+
 ![injection7](/assets/images/injection7.png)
 
 Vamos a entrar con SSH, y estamos dentro!
