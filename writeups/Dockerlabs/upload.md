@@ -72,10 +72,11 @@ Me pongo de nuevo en escucha desde mi máquina atacante y vemos que obtenemos ac
 ![upload22](/assets/images/upload22.png)
 
 Antes de hacer lo de la imagen de abajo he hecho varias cosas para hacer la TTY operativa:
-`script /dev/null -c bash`
-`CTRL + Z`
-`stty raw --echo;fg`
-`reset xterm`
+* `script /dev/null -c bash`
+* `CTRL + Z`
+* `stty raw --echo;fg`
+* `reset xterm`
+
 ![upload23](/assets/images/upload23.png)
 
 ## Escalada de privilegios
