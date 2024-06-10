@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Injection"
+title: "FirstHacking"
 author: "s0ksy"
 ---
-Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde veremos como podemos hacer explotaciones de SQL injection para obtener la contraseña y el usuario del ssh.
+Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde veremos como podemos hacer explotaciones de SQL injectfgfion para obtener la contraseña y el usuario del ssh.
 
 ## Reconocimiento
 
@@ -15,23 +15,24 @@ Lanzamos un escaneo con nmap básico para poder ver que puertos tenemos abiertos
 * `-Pn`: Para que no nos lance PING, también para hacer el escaneo más rápido
 
 Y encontramos el puerto 21 (ftp) abierto:
-![[Pasted image 20240606230926.png]]
+![first1](/assets/images/first1.png)
 
 Ahora lanzaremos un escaneo más específico a los puertos que hemos encontrado abiertos usando el parámetro -sCV que es una abreviación de -sC (lanza los scripts que vienen por default en nmap a los puertos indicados para poder encontrar información de utilidad de manera más sencilla) y de -sV (indica la versión del servicio que corre en ese puerto). Encontramos la versión del `ftp` que esta corriendo en ese puerto, pero me parece raro que no tengamos acceso por Anonymous
-![[Pasted image 20240606232259.png]]
+![first2](/assets/images/first2.png)
 
 Por lo tanto, buscamos la versión del servicio en searchsploit para ver si se puede vulnerar eso de alguna forma y encontramos 2 formas de hacerlo (ejecutando el script del exploit manualmente con python o de forma automática con metasploit)
-![[Pasted image 20240606232945.png]]
+![first3](/assets/images/first3.png)
+
 ## Explotación
 
 Decido hacerlo con metasploit
-![[Pasted image 20240606233256.png]]
+![first4](/assets/images/first4.png)
 
 Y veo que solo nos basta con configurar el HOST de la víctima, algo muy sencillo
-![[Pasted image 20240606233319.png]]
+![first6](/assets/images/first6.png)
 
-Lo configuramos como toca:
-![[Pasted image 20240606233346.png]]
+Lo configuramos como toca, es decir, poniendo la ip de la máquina:
+![first7](/assets/images/first7.png)
 
 Le damos a run para ejecutar el script y tendriamos acceso ya como root!!
-![[Pasted image 20240606233608.png]]
+![first8](/assets/images/first8.png)
