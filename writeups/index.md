@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Writeups
+title: s0ksy | Writeups
 permalink: /writeups/
 ---
 
