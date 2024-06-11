@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trust"
+title: "s0ksy | Trust"
 author: "s0ksy"
 ---
 Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde veremos como podemos explotar la contraseña de un ssh haciendo fuerza bruta con la herramienta llamada "Hydra"
