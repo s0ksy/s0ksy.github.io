@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: s0ksy | About
 permalink: /about/
 ---
 
