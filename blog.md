@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: s0ksy | Blog
 permalink: /blog/
 ---
 
