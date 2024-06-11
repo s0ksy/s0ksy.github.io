@@ -3,7 +3,7 @@ layout: post
 title: "Vacaciones"
 author: "s0ksy"
 ---
-
+Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde veremos que hay un directorio muy importante que hay que revisar siempre que encontremos algo relacionado con emails para sacar cosas de utilidad.
 
 ## Reconocimiento
 
@@ -44,11 +44,14 @@ Entramos al `ssh` con el usuario `camilo` y la contraseña `password1`:
 
 Buscamos binarios que podamos usar como sudoer, pero resulta que `camilo` no tiene permisos de sudo... Por lo tanto paso a usar `find / -perm -4000 2>/dev/null` para ver si encuentro algún binario con permisos de SUID, pero no encuentro ninguno que pueda usar y que me sea interesante. 
 ![vaca8](/assets/images/vaca8.png)
+
 Tratamos un poco la TTY con:
 - `export TERM=xterm`
 - `export SHELL=bash`
 - `bash`
+
 Antes revisando el código fuente de la web hemos visto que le estaba hablando sobre un correo y en linux siempre que veamos algo relacionado con correos hay que ir a revisar el directorio `/var/mail/`
+
 ![vaca9](/assets/images/vaca9.png)
 
 Y en este directorio encuentro que me puedo meter en otro directorio llamado `camilo` y ahí dentro encuentro un archivo de texto llamado `correo.txt` y al abrirlo veo que Juan le ha dejado un texto donde le da la contraseña de su usuario para que pueda terminar un trabajo.
@@ -56,6 +59,7 @@ La contraseña es : `2k84dicb`.
 ![vaca10](/assets/images/vaca10.png)
 
 Y como tengo la contraseña de juan decido cambiar de usuario a juan poniendo la contraseña que nos ha dejado anteriormente.
+
 ![vaca11](/assets/images/vaca11.png)
 
 Exploro un poco los directorios que tiene juan en su usuario y encuentro el directorio de `camilo`, el directorio de `juan` y el de un chico nuevo que no habíamos visto llamado `pedro`.
@@ -66,4 +70,5 @@ Decido meterme en el directorio de `pedro` porque es el que más curiosidad me d
 ![vaca13](/assets/images/vaca13.png)
 
 Buscamos en https://gtfobins.github.io/ como podemos explotar este binario y vemos que se puede hacer haciendo uso de: `sudo ruby -e 'exec "/bin/sh"'` y al ponerlo por la terminal entramos como superusuario root!!
+
 ![vaca14](/assets/images/vaca14.png)
