@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TryHackMe
+title: s0ksy | TryHackMe
 permalink: /writeups/TryHackMe/
 ---
 
