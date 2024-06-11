@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "s0ksy"
 ---
 
 # Bienvenido a mi (portfolio)
