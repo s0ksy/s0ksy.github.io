@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vacaciones"
+title: "s0ksy | Vacaciones"
 author: "s0ksy"
 ---
 Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde veremos que hay un directorio muy importante que hay que revisar siempre que encontremos algo relacionado con emails para sacar cosas de utilidad.
