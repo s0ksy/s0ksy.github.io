@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HackTheBox
+title: s0ksy | HackTheBox
 permalink: /writeups/HackTheBox/
 ---
 
