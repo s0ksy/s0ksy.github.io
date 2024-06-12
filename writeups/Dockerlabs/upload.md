@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "s0ksy | Upload"
+title: "Upload"
 author: "s0ksy"
 ---
 Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde aprenderemos LFI (locale file inclusion) y RCE (remote code execute/ejecucion remota de código).
