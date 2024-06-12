@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "s0ksy | FirstHacking"
+title: "FirstHacking"
 author: "s0ksy"
 ---
 Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde veremos como podemos hacer explotaciones de SQL injectfgfion para obtener la contraseña y el usuario del ssh.
