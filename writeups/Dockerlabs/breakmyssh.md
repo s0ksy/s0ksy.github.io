@@ -5,6 +5,8 @@ author: "s0ksy"
 ---
 Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde nos encontraremos ante un servicio SSH sin nada más y tendremos que conseguir el user y la passwd a través de fuerza bruta
 
+## Reconocimiento
+
 Lanzamos un escaneo con nmap básico para poder ver que puertos tenemos abiertos
 - `-p-` : Sirve para indicarle que quieres hacer un escaneo sobre todos los puertos (1-65535) de la ip 
 - `--open`: Indicamos que solo queremos que nos muestre los puertos abiertos
@@ -21,6 +23,8 @@ Ahora lanzaremos un escaneo más específico a los puertos que hemos encontrado 
 
 Me voy a descargar un diccionario de github, ya que estuve probando con varios diccionarios nativos de Linux y demás y no me encontraba con ninguno y tuve que preguntar que es lo que me recomendaban. Me recomendaron este diccionario y es el que he usado.
 ![break 3](/assets/images/break3.png)
+
+## Explotación
 
 Ahora le hacemos un ataque de fuerza bruta con "Hydra" indicando la wordlist a usar para enumerar usuarios, la wordlist a usar para enumerar contraseñas y el servicio de donde es dicho usuario. Nos encuentra ya `root` y la contraseña `estrella`!!
 ![break 4](/assets/images/break4.png)
