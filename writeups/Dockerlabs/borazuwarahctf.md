@@ -36,6 +36,7 @@ Como ya tenemos el user y la contraseña, accedemos vía `ssh`:
 ![ctf 6](/assets/images/ctf6.png)
 
 Tratamos la TTY para que sea más funcional:
+
 ![ctf 7](/assets/images/ctf7.png)
 
 ## Escalada de privilegios
@@ -44,4 +45,5 @@ Y hacemos `sudo -l` para ver que comandos se pueden usar como sudoer y nos encue
 ![ctf 8](/assets/images/ctf8.png)
 
 Simplemente hacemos `sudo bash` y ya hemos obtenido superusuario root!!
+
 ![ctf 9](/assets/images/ctf9.png)
