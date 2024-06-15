@@ -14,3 +14,4 @@ Aquí puedes ver los writeups de las máquinas que he realizado de Dockerlabs.
 - [FirstHacking - Dockerlabs](firsthacking.md)
 - [Vacaciones - Dockerlabs](vacaciones.md)
 - [BreakMySSH - Dockerlabs](breakmyssh.md)
+- [BorazuwarahCTF - Dockerlabs](borazuwarahctf.md)
