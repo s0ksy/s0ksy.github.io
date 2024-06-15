@@ -6,12 +6,12 @@ author: "s0ksy"
 Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde nos encontraremos ante un servicio SSH sin nada más y tendremos que conseguir el user y la passwd a través de fuerza bruta
 
 Lanzamos un escaneo con nmap básico para poder ver que puertos tenemos abiertos
-- -p- : Sirve para indicarle que quieres hacer un escaneo sobre todos los puertos (1-65535) de la ip 
-- --open: Indicamos que solo queremos que nos muestre los puertos abiertos
-- --min-rate 5000: Con este parámetro le indicamos que queremos que envíe paquetes no más lentos de 5000 paquetes por segundo (para agilizar el escaneo)
-- -sS: Para que nos haga un escaneo de tipo SYN, también para agilizar el escaneo y que sea sigiloso
-- -n: Para que no se nos aplique resolución DNS (agilizar escaneo también)
-- -Pn: Para que no nos lance PING, también para hacer el escaneo más rápido
+- `-p-` : Sirve para indicarle que quieres hacer un escaneo sobre todos los puertos (1-65535) de la ip 
+- `--open`: Indicamos que solo queremos que nos muestre los puertos abiertos
+- `--min-rate 5000`: Con este parámetro le indicamos que queremos que envíe paquetes no más lentos de 5000 paquetes por segundo (para agilizar el escaneo)
+- `-sS`: Para que nos haga un escaneo de tipo SYN, también para agilizar el escaneo y que sea sigiloso
+- `-n`: Para que no se nos aplique resolución DNS (agilizar escaneo también)
+- `-Pn`: Para que no nos lance PING, también para hacer el escaneo más rápido
 
 Podemos observar que solo tenemos el puerto 22 (ssh) abierto:
 ![break 1](/assets/images/break1.png)
