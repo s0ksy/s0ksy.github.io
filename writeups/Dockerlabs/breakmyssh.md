@@ -3,6 +3,7 @@ layout: post
 title: "BreakMySSH"
 author: "s0ksy"
 ---
+Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde nos encontraremos ante un servicio SSH sin nada más y tendremos que conseguir el user y la passwd a través de fuerza bruta
 
 Lanzamos un escaneo con nmap básico para poder ver que puertos tenemos abiertos
 - -p- : Sirve para indicarle que quieres hacer un escaneo sobre todos los puertos (1-65535) de la ip 
