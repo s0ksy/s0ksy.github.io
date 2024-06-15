@@ -3,7 +3,7 @@ layout: post
 title: "BorazuwarahCTF"
 author: "s0ksy"
 ---
-
+Estaremos resolviendo una máquina de Dockerlabs de dificultad muy fácil, donde nos encontraremos ante una imagen la cual habrá que hacer uso de exiftool para la extracción de sus metadatos y después hacer fuerza bruta para encontrar la contraseña para poder entrar por ssh.
 
 ## Reconocimiento
 
