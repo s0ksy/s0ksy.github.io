@@ -11,4 +11,3 @@ resolviendo máquinas easy (de momento) para ir cogiendo soltura.
 
 Discord: @s0ksy
 - [GitHub](https://github.com/s0ksy)
-- [Twitter](https://twitter.com/soksycc)
